@@ -1,0 +1,820 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+/* ubuntu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*roboto bold*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+/*roboto*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+body {
+    background-color: rgb(247 237 237);
+    overflow-x: hidden;
+    /* Hide scrollbars */
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    margin-left: 30px;
+    transition: background-color 2s;
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    border: 1px solid wheat;
+    /* background-color: ; */
+    border-radius: 20px;
+    background-color: rgb(172, 41, 102);
+}
+
+.hello .right {
+    margin-top: 160px;
+    margin-left: 180px;
+}
+
+.hello .right .text-1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.hello .right .text-2:hover{
+    font-size: 80px;
+    /* font-family: cursive; */
+    color: rgb(240, 237, 230);
+    /* text-shadow: black; */
+    /* transform: skew(5deg, 5deg); */
+    text-shadow: 7px 7px darkblue;
+}
+.hello .right .text-2 {
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    /* transition: text-shadow 4s; */
+    transition: border 4s;
+    /* transition: transform 7s; */
+    transition: text-shadow 2s;
+}
+
+.hello .right .text-3 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.hello .right .text-3 span {
+    color: #86ff00;
+    text-shadow: 2px 2px black;
+}
+
+/* about section start */
+
+.about {
+    height: 650px;
+    width: 100vw;
+    background-color: rgb(249 231 231);
+}
+
+.about .head {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-top: 64px;
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+.about .who {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(233, 25, 25);
+    font-weight: bold;
+}
+
+.about .left {
+    justify-content: center;
+    /* text-align: center; */
+    display: inline-block;
+    width: 50%;
+    margin-left: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    /* border: 1px solid black;     */
+}
+
+.about .left .text-3 {
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Orelega One', cursive;
+}
+
+.about .left p {
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: justify;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about .left .text-3 span {
+    color: crimson;
+}
+
+.about .right {
+    display: inline-block;
+    width: 49%;
+    justify-content: center;
+    text-align: center;
+}
+
+.about .right img {
+    margin: auto;
+    height: 420px;
+    margin-bottom: 70px;
+    width: 330px;
+    padding: 15px;
+    margin-left: 108px;
+    border-radius: 20px;
+    margin-right: 138px;
+    transition: border-radius 7s;
+    transition: transform 3s;
+}
+.about .right img:hover{
+border-radius: 220px;
+transform: skew(3deg, 3deg);
+}
+
+/* Skills CSS Starting */
+
+.skills {
+    padding: 20px;
+    background-color: rgb(247 237 237);
+}
+
+.skills .head {
+    padding-top: 64px;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-bottom: 45px;
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+.skills .row .skill {
+    padding-left: 131px;
+    padding-top: 20px;
+}
+
+.skills .row .skill img {
+    height: 250px;
+    width: 250px;
+    border: 1px dotted black;
+    /* border: 2px solid red; */
+    background-color: #f7e0e0;
+    box-shadow: -2px -2px 5px 5px #f5c9c9;
+    padding: 10px;
+    transition: background-color 3s;
+    transition: border 2s;
+    /* background-color: #b9a1a1; */
+}
+
+.skills .row .skill :hover{
+    background-color: rgb(101, 236, 236);
+    border:  5px solid rgb(226, 39, 39);
+}
+
+
+/* experiences styling start */
+
+.experience {
+    width: 100%;
+    background-color: #f7ede0;
+}
+
+.experience .head {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-bottom: 45px;
+    padding-top: 64px;
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+.experience .we {
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+.experience .left {
+    display: inline-block;
+    width: 50%;
+    height: 1050px;
+    background-color: #f7ede0;
+    /* background: lawngreen; */
+}
+
+.experience .left .item-1 h4 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.experience .left .item-1 {
+    height: 200px;
+    width: 90%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin: 20px;
+    /* border: 2px solid red; */
+}
+
+.experience .left .item-1 a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.experience .left #swoc {
+    height: 226px;
+}
+
+.experience .left #internshala {
+    height: 250px;
+}
+
+/* .experience right(community .experience styling) */
+
+.experience .ce {
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    /* padding-bottom: 45px; */
+    /* padding-top: 50px; */
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+.experience .right {
+    display: inline-block;
+    width: 49.5%;
+    background-color: #f7ede0;
+    /* margin-right: 5px; */
+    height: 1050px;
+    /* background: lawngreen; */
+}
+
+.experience .right .item-1 h4 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.experience .right .item-1 {
+    height: 200px;
+    width: 90%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin: 20px;
+    /* border: 2px solid red; */
+}
+
+.experience .right .item-1 a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.experience .right #ops {
+    height: 250px;
+}
+
+.experience .right #gif {
+    height: 450px;
+}
+
+.experience .right #gif img {
+    height: 440px;
+    width: 100%;
+    padding: 30px;
+}
+
+/* achievements style start */
+
+.achievements {
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(247 237 237);
+}
+
+.achievements .head {
+    padding-top: 64px;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-bottom: 45px;
+    /* padding-top: 40px; */
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+.achievements .acheiv {
+    width: 30%;
+    height: 50vh;
+    border: 1px dotted rgb(240, 232, 232);
+    padding: 15px;
+    margin: 20px;
+    float: left;
+    background-color: rgb(238, 225, 201);
+    border-radius: 10px;
+    transition: border 7s ;
+    transition: background-color 4s;
+}
+.achievements .acheiv:hover{
+  border: 5px solid rgb(216, 65, 141);
+  background-color: rgb(252, 168, 214) ;
+}
+
+.achievements .left h4 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.achievements .mid h4 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.achievements .right h4 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Project CSS Style Start */
+
+.project {
+    background-color: rgb(247 237 237);
+    height: 150vh;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+/* css for the rows of projects */
+
+.project .row {
+    justify-content: center;
+    align-items: center;
+}
+
+/* css of the div of projects */
+
+.project .row .pro {
+    width: 350px;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(253, 247, 236);
+    /* border: 2px solid green; */
+    box-shadow: -2px -2px 4px 4px rgb(243, 227, 198);
+    margin: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    /* transform: box-shadow  3s ease-in-out;
+     */
+      transition: box-shadow 3s;
+     transition: background-color 3s;
+     /* transition: border 2s; */
+}
+.project .row .pro:hover{
+background-color: rgb(156, 202, 64);
+box-shadow: -2px -2px 4px 4px orangered;
+}
+
+/* CSS FOR THE HEADING OF .projects */
+
+.project .row .pro h4 {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* heading : Projects Css/ */
+
+.project .head {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-bottom: 45px;
+    padding-top: 64px;
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+/* Connect With Me CSS Style Start */
+
+.connet {
+    /* background-color: #dffbf2; */
+    background-color: rgb(247 237 237);
+    height: 70vh;
+    width: 100vw;
+}
+
+.connet .head {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-bottom: 45px;
+    padding-top: 40px;
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+}
+
+.connet .row {
+    text-align: center;
+    justify-content: center;
+}
+
+.connet .row .min {
+    height: 120px;
+    width: 120px;
+    /* background-color: black; */
+    /* border: 2px solid black; */
+    margin-left: 20px;
+}
+
+.connet .row .min img {
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px red;
+    transition: box-shadow 2s;
+    border-radius: 20px;
+}
+.connet .row .min img:hover{
+ box-shadow: 9px 9px red;
+}
+/* footer starting css */
+
+.foot {
+    height: 120px;
+    width: 100vw;
+    color: white;
+    background-color: rgb(25 4 56);
+}
+
+.foot p a {
+    color: white;
+}
+
+.foot .container p {
+    padding-top: 45px;
+    justify-content: center;
+}
+
+/* media query starting */
+@media (min-width: 270px) and (max-width: 640px) {
+    .navbar .navbar-nav .nav-item {
+        /* color: #000; */
+        background-color: black;
+    }
+    .hello {
+        width: 900px;
+    }
+    .hello .right {
+        margin-right: 90px;
+    }
+    .hello .right .text-1 {
+        font-size: 30px;
+        font-weight: bold;
+        /* padding: 10px; */
+        margin-right: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+    }
+    .hello .right .text-2 {
+        font-size: 41px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+    }
+    .hello .right .text-3 {
+        font-size: 30px;
+        margin-bottom: 50px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+    }
+    .hello .left img {
+        height: 50px;
+    }
+    /* About Media Query Style Start  */
+    .about {
+        align-items: center;
+        width: 880px;
+        height: 500px;
+    }
+    .about .left {
+        width: 800px;
+    }
+    .about .right {
+        display: none;
+    }
+    /* Skill Media Query Style Start  */
+    .skills {
+        width: 880px;
+    }
+    .skills .row .skill img {
+        height: 200px;
+    }
+    .skills .row .skill {
+        margin-left: 145px;
+    }
+    /* Experiences Media Query Style Start */
+    .experience {
+        width: 880px;
+    }
+    .experience .left {
+        display: block;
+    }
+    .experience .left .item-1 {
+        width: 700px;
+    }
+    .experience .right {
+        display: block;
+        height: 600px;
+    }
+    .experience .right .item-1 {
+        width: 700px;
+    }
+    .experience .right #gif {
+        display: none;
+    }
+    /* Achievements Media Query Style Start */
+    .achievements {
+        width: 880px;
+        height: 870px;
+    }
+    .achievements .left {
+        width: 700px;
+        height: 190px;
+    }
+    .achievements .mid {
+        width: 700px;
+        height: 190px;
+    }
+    .achievements .right {
+        width: 700px;
+        height: 190px;
+    }
+    /* Project Media Query Style Start */
+    .project {
+        width: 880px;
+        height: 1200px;
+    }
+    .project .row {
+        display: inline;
+    }
+    /* Cennect with me Media Query Style Start */
+    .connet {
+        width: 880px;
+        height: 350px;
+    }
+    /* Footer Media Query Style Start */
+    .foot {
+        width: 880px;
+        height: 100px;
+    }
+}
+
+/* i-phone/5/se media query starting */
+
+@media (min-width: 320px) and (max-width: 568px) {
+    .navbar .navbar-nav .nav-item {
+        background-color: black;
+    }
+    /* home media query */
+    .hello {
+        width: 850px;
+    }
+    .hello .left img {
+        height: 251px;
+        margin-top: 27px;
+    }
+    .hello .right .text-2 {
+        font-size: 40px;
+        margin-right: 40px;
+    }
+        /* About Media Query Style Start  */
+        .about {
+            align-items: center;
+            width: 850px;
+            height: 500px;
+        }
+        .about .left {
+            width: 800px;
+        }
+        .about .right {
+            display: none;
+        }
+    
+    /* Skills Media Query Style Start  */
+    .skills {
+        width: 850px;
+    }
+    .skills .row .skill img {
+        height: 200px;
+    }
+    .skills .row .skill {
+        margin-left: 145px;
+    }
+    /* Experience Media Query Style Start   */
+    .experience {
+        width: 850px;
+    }
+    .experience .left {
+        display: block;
+    }
+    .experience .left .item-1 {
+        width: 700px;
+    }
+    .experience .right {
+        display: block;
+        height: 600px;
+    }
+    .experience .right .item-1 {
+        width: 700px;
+    }
+    .experience .right #gif {
+        display: none;
+    }
+    /* Achievements Media Query Style Start */
+    .achievements {
+        width: 850px;
+        height: 870px;
+    }
+    .achievements .left {
+        width: 700px;
+        height: 190px;
+    }
+    .achievements .mid {
+        width: 700px;
+        height: 190px;
+    }
+    .achievements .right {
+        width: 700px;
+        height: 190px;
+    }
+    /* Project Media Query Style Start */
+    .project {
+        width: 850px;
+        height: 1200px;
+    }
+    .project .row {
+        display: inline;
+    }
+    /* Cennect with me Media Query Style Start */
+    .connet {
+        width: 850px;
+        height: 350px;
+    }
+    /* Footer Media Query Style Start */
+    .foot {
+        width: 850px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .navbar .navbar-nav .nav-item {
+        /* color: #000; */
+        background-color: black;
+    }
+    .hello {
+        width: 900px;
+    }
+    .hello .right {
+        margin-right: 90px;
+    }
+    .hello .right .text-1 {
+        font-size: 30px;
+        font-weight: bold;
+        /* padding: 10px; */
+        margin-right: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+    }
+    .hello .right .text-2 {
+        font-size: 41px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+    }
+    .hello .right .text-3 {
+        font-size: 30px;
+        margin-bottom: 50px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+    }
+    .hello .left img {
+        height: 50px;
+    }
+    /* About Media Query Style Start  */
+    .about {
+        align-items: center;
+        width: 880px;
+        height: 500px;
+    }
+    .about .left {
+        width: 800px;
+    }
+    .about .right {
+        display: none;
+    }
+    /* Skill Media Query Style Start  */
+    .skills {
+        width: 880px;
+    }
+    .skills .row .skill img {
+        height: 200px;
+    }
+    .skills .row .skill {
+        margin-left: 145px;
+    }
+    /* Experiences Media Query Style Start */
+    .experience {
+        width: 880px;
+    }
+    .experience .left {
+        display: block;
+    }
+    .experience .left .item-1 {
+        width: 700px;
+    }
+    .experience .right {
+        display: block;
+        height: 600px;
+    }
+    .experience .right .item-1 {
+        width: 700px;
+    }
+    .experience .right #gif {
+        display: none;
+    }
+    /* Achievements Media Query Style Start */
+    .achievements {
+        width: 880px;
+        height: 870px;
+    }
+    .achievements .left {
+        width: 700px;
+        height: 190px;
+    }
+    .achievements .mid {
+        width: 700px;
+        height: 190px;
+    }
+    .achievements .right {
+        width: 700px;
+        height: 190px;
+    }
+    /* Project Media Query Style Start */
+    .project {
+        width: 880px;
+        height: 1200px;
+    }
+    .project .row {
+        display: inline;
+    }
+    /* Cennect with me Media Query Style Start */
+    .connet {
+        width: 880px;
+        height: 350px;
+    }
+    /* Footer Media Query Style Start */
+    .foot {
+        width: 880px;
+        height: 100px;
+    }
+}
+
