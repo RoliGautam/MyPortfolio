@@ -202,8 +202,9 @@ transform: skew(3deg, 3deg);
 /* experiences styling start */
 
 .experience {
-    width: 100%;
-    background-color: #f7ede0;
+       width: 100%;
+        height: fit-content;
+       background-color: #f7ede0;
 }
 
 .experience .head {
@@ -227,7 +228,7 @@ transform: skew(3deg, 3deg);
 .experience .left {
     display: inline-block;
     width: 50%;
-    height: 1050px;
+/*     height: 1050px; */
     background-color: #f7ede0;
     /* background: lawngreen; */
 }
@@ -277,7 +278,7 @@ transform: skew(3deg, 3deg);
     width: 49.5%;
     background-color: #f7ede0;
     /* margin-right: 5px; */
-    height: 1050px;
+/*     height: 1050px; */
     /* background: lawngreen; */
 }
 
