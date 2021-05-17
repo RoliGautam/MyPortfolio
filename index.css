@@ -289,7 +289,7 @@ transform: skew(3deg, 3deg);
 }
 
 .experience .right .item-1 {
-    height: 200px;
+    height: fit-content;
     width: 90%;
     float: left;
     font-family: 'Roboto', sans-serif;
@@ -302,10 +302,12 @@ transform: skew(3deg, 3deg);
     font-family: 'Roboto', sans-serif;
 }
 
-.experience .right #ops {
+/* .experience .right #ops {
     height: 250px;
-}
+} */
 
+
+/* 
 .experience .right #gif {
     height: 450px;
 }
@@ -315,7 +317,7 @@ transform: skew(3deg, 3deg);
     width: 100%;
     padding: 30px;
 }
-
+ */
 /* achievements style start */
 
 .achievements {
